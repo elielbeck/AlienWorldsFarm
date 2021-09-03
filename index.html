@@ -109,7 +109,7 @@ async function mine() {
 
     const miner = window.userAccount
 
-    const nonce = await findNonce(miner, 0, '90acd06de40e2fe260e04b81d0afd4fd0017ecabc0c3e1c44b3750d408bc7165')
+    const nonce = await findNonce(miner, 0, '0000000000000000000000000000000000000000000000000000000000000000')
     console.log('Found nonce!', nonce)
 
     document.getElementById('response').innerHTML = 'Mining finished!<br>Confirm transaction with your wallet'
